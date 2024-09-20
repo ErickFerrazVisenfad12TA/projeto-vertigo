@@ -9,4 +9,10 @@
 header {
     background-image: url(./imagens/pg-mobile.png);
     background-size: cover;
+    height: 8.375rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
