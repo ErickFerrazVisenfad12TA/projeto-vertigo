@@ -6,6 +6,12 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+:root {
+    --gray-888: #1E293B;
+    --gray-600: #475569; 
+}
+
+
 header {
     background-image: url(./imagens/pg-mobile.png);
     background-size: cover;
@@ -14,5 +20,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 3.7rem;
 }
 
+main {
+    padding-inline: 1.5rem;
+}
+
+.descricao h1 {
+    color: var(--gray-888);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
