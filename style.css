@@ -8,7 +8,7 @@
 
 :root {
     --gray-888: #1E293B;
-    --gray-600: #475569; 
+    --gray-600: #475569;
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
@@ -55,20 +55,20 @@ main {
     border: 1px;
 }
 
-.input-box div{
+.input-box div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
-.login label{
-   font-size: 0.875rem;
-   color: var(--gray-888);
-   font-weight: 600;
+.login label {
+    font-size: 0.875rem;
+    color: var(--gray-888);
+    font-weight: 600;
 }
 
-.login input{
+.login input {
     padding: 1rem 0.75rem;
     border: 1px solid var(--gray-200);
     border-radius: 0.25rem;
@@ -91,7 +91,7 @@ main {
     font-weight: 600;
 }
 
-.login a:hover{
+.login a:hover {
     text-decoration: underline;
 }
 
@@ -109,17 +109,25 @@ main {
     color: var(--white);
 }
 
-.login > p {
+.login>p {
     color: var(--gray-600);
 }
 
-.login > p a {
+.login>p a {
     font-weight: 700;
     font-size: 1rem;
 }
 
+.bg-desktop {
+    display: none;
+}
+
 @media(min-width: 1000px) {
-    header{
+    body {
+        display: flex;
+    }
+
+    header {
         background: none;
         justify-content: flex-start;
         padding-inline: 7rem;
@@ -132,5 +140,14 @@ main {
 
     main {
         padding-inline: 7rem;
+    }
+
+     .conteudo {
+        width: 100%;
+     }
+
+    .bg-desktop {
+        display: block;
+        width: 100%;
     }
 }
